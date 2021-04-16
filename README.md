@@ -103,7 +103,7 @@ cd blog
 python manage.py runserver
 ```
 
-**访问http://127.0.0.1:8000/，查看django页面**
+**本地浏览器访问http://127.0.0.1:8000/，查看django页面**
 
 显示The install worked successfully! Congratulations!
 
@@ -117,16 +117,13 @@ cmd启动，最后一行会提示ctrl+break退出。
 
 所以**ctrl + fn + p**或**ctrl + fn + b**退出
 
-```
-ctrl + fn + p
-或ctrl + fn + b
-```
-
 **在github上更新内容**
 
 ```
 cd ..   						#进入仓库文件夹blog
-git add . 						#
+git add . 						
 git commit -m 'creatproject' 	#创建工程项目
+git push						#上传到github进行更新
+								#需要登录浏览器验证身份
 ```
 
